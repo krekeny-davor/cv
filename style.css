@@ -30,3 +30,21 @@ h6 {
   background-color: bisque;
   padding: 40px 75px;
 }
+
+article + article {
+  margin-top: 70px;
+  border-top: 3px solid gray;
+}
+
+nav a {
+  margin-left: 15px;
+  color: blueviolet;
+}
+
+a:hover {
+  color: cornflowerblue;
+}
+
+a:active {
+  color: red;
+}
