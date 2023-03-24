@@ -8,6 +8,7 @@
     <meta name="author" content="Davor Culibrk">
     <meta name="description" content="This is my personal CV">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +18,7 @@
 
 <body>
     <header class="header-padding header-alignment">
+        <span class="badge">Hire me!</span>
         <h1>My personal CV (curriculum vitae)</h1>
         <p>Part time Facility manager and part time frontend developer.</p>
         <nav>
@@ -36,21 +38,22 @@
 
         </nav>
     </header>
+
     <main class="main-padding">
 
-        <article id="profile">
-            <h2>Profile</h2>
+        <article id="profile" class="article">
+            <h2 class="article-heading">Profile</h2>
             <p>Part time Facility Manager and part time Frontend web developer, currently <em>improving</em> my
                 developing skills, so I can switch to full time developer.
             </p>
         </article>
 
-        <article id="experiences">
-            <h2>Experiences</h2>
+        <article id="experiences" class="article">
+            <h2 class="article-heading">Experiences</h2>
             <section>
                 <header>
-                    <h3>Facility manager</h3>
-                    <p>11/2017 - still active</p>
+                    <h3 class="inline">Facility manager</h3>
+                    <p class="inline">11/2017 - still active</p>
                 </header>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis incidunt hic corrupti
@@ -72,8 +75,8 @@
             </section>
         </article>
 
-        <article id="skills">
-            <h2>Skills</h2>
+        <article id="skills" class="article">
+            <h2 class="article-heading">Skills</h2>
             <section>
                 <h3>Soft skills</h3>
                 <ul>
@@ -92,8 +95,8 @@
             </section>
         </article>
 
-        <article id="contact">
-            <h2>Contact:</h2>
+        <article id="contact" class="article">
+            <h2 class="article-heading">Contact:</h2>
             <p>
                 Contact me from my personal webpage <a href="https://www.davor-culibrk.com/" target="_blank">Davor
                     Culibrk</a>
