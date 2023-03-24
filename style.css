@@ -3,10 +3,11 @@
 }
 html {
   font-family: "Montserrat", sans-serif;
+  font-size: 14px;
 }
 
 body {
-  max-width: 800px;
+  max-width: 60vw;
   margin: 0 auto;
 }
 
@@ -25,13 +26,29 @@ header {
 
 .header-padding,
 .main-padding {
-  padding: 20px;
+  padding: 3rem;
+}
+
+.main__paragraph {
+  max-width: 60ch;
+}
+
+.header {
+  font-size: 3rem;
+}
+
+.header__title {
+  font-size: 1em;
+}
+
+.header__paragraph {
+  font-size: 0.25em;
 }
 
 .header-alignment {
   text-align: center;
   background-color: bisque;
-  padding: 40px 75px;
+  padding: 2rem 4rem;
 }
 
 .inline {
@@ -40,13 +57,14 @@ header {
 
 .article-heading {
   position: relative;
-  left: -15px;
+  left: -2rem;
 }
 
 .badge {
   background-color: cadetblue;
-  border: 3px solid black;
-  padding: 5px;
+  border: 0.25rem solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
   display: inline-block;
   font-weight: bold;
   position: absolute;
@@ -55,16 +73,16 @@ header {
 }
 
 .article {
-  padding: 0 45px 0 45px;
+  padding: 0 3rem 0 3rem;
 }
 
 article + article {
-  margin-top: 70px;
-  border-top: 3px solid gray;
+  margin-top: 5rem;
+  border-top: 0.25rem solid gray;
 }
 
 nav a {
-  margin-left: 15px;
+  margin-left: 1rem;
   color: blueviolet;
 }
 
