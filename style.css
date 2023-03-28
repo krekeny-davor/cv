@@ -102,3 +102,30 @@ a:active {
   background-color: black;
   color: blanchedalmond;
 }
+
+@media (min-width: 786px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 18px;
+  }
+
+  article + article {
+    margin-top: 7rem;
+  }
+
+  .badge {
+    position: fixed;
+  }
+}
+
+@media print {
+  nav,
+  .badge {
+    display: none;
+  }
+}
